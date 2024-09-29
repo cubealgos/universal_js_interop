@@ -31,19 +31,11 @@
 /// > instead.
 ///
 /// {@category Web}
-library;
 
-import 'package:universal_js_interop/universal_internal.dart' show Since;
-import 'package:universal_js_interop/universal_js_annotations.dart'
-    show JSExport;
-import 'package:universal_js_interop/universal_js_types.dart';
+import 'package:universal_js_interop/src/internal.dart' show Since;
+import 'package:universal_js_interop/src/js_annotations.dart' show JSExport;
+import 'package:universal_js_interop/src/js_types.dart';
 import 'dart:typed_data';
-
-// To support an easier transition, we allow users to use `@staticInterop`
-// classes - with or without the `@anonymous` annotation.
-export 'package:universal_js_interop/universal_js_annotations.dart'
-    show staticInterop, anonymous, JSExport;
-export 'dart:js_util' show NullRejectionException;
 
 /// An annotation on a JavaScript interop declaration.
 ///

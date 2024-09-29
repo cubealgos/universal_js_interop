@@ -1,6 +1,6 @@
 name: universal_js_interop
 description: "enabled cross platform support for dart:js_interop. The interop still only works on web, but this gets rid of compilation errors."
-version: 0.0.5
+version: 0.1.0
 homepage:
 
 environment:
